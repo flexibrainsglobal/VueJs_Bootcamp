@@ -3,6 +3,7 @@
     <Template/>
     <ConditionalRendering/>
     <ListRendering/>
+    <DyanamicComponent/>
 </div>
 </template>
 
@@ -10,13 +11,15 @@
 import Template from './components/template.vue'
 import ConditionalRendering from "./components/conditionalrendering.vue"
 import ListRendering from "./components/ListRendering.vue"
+import DyanamicComponent from "./components/dynamiccomponent.vue"
 
 export default {
   name: 'App',
   components: {
     Template,
     ConditionalRendering,
-    ListRendering
+    ListRendering,
+    DyanamicComponent
   }
 }
 </script>
