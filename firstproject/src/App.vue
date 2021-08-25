@@ -1,16 +1,19 @@
 <template>
 <div>
     <Template/>
+    <ConditionalRendering/>
 </div>
 </template>
 
 <script>
 import Template from './components/template.vue'
+import ConditionalRendering from "./components/conditionalrendering.vue"
 
 export default {
   name: 'App',
   components: {
-    Template
+    Template,
+    ConditionalRendering
   }
 }
 </script>
