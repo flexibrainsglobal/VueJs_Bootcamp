@@ -2,18 +2,21 @@
 <div>
     <Template/>
     <ConditionalRendering/>
+    <ListRendering/>
 </div>
 </template>
 
 <script>
 import Template from './components/template.vue'
 import ConditionalRendering from "./components/conditionalrendering.vue"
+import ListRendering from "./components/ListRendering.vue"
 
 export default {
   name: 'App',
   components: {
     Template,
-    ConditionalRendering
+    ConditionalRendering,
+    ListRendering
   }
 }
 </script>
