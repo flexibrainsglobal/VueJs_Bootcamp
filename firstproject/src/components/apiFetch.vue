@@ -29,7 +29,7 @@
 </template>
 <script>
 import axios from "axios";
-
+import $ from "jquery"
 export default {
   name: "FetchApi",
   data() {
@@ -51,7 +51,9 @@ export default {
       axios.get("http://localhost:3000/data").then(function (response) {
         console.log(response.data);
         _this.DynamicData = response.data;
-
+        $('#mytable').DataTable( {
+    
+} );
       });
     },
   },

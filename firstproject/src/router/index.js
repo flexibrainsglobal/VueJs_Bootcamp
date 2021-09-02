@@ -1,7 +1,7 @@
 import {createRouter , createWebHistory } from "vue-router";
 import RouterComponent from "../components/RouterComponent.vue"
 import FetchApi from "../components/apiFetch.vue"
-
+import Datatable from "../components/datatable.vue"
 const routes = [
     {
         path:"/firstroute",
@@ -12,6 +12,11 @@ const routes = [
         path:"/fetchapi",
         name:"Fetch API",
         component:FetchApi
+    },
+    {
+        path:"/datatable",
+        name:"Datatable",
+        component:Datatable
     }
 ]
 

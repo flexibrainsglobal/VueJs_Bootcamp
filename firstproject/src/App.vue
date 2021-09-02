@@ -5,7 +5,9 @@
     <ListRendering/>
     <DyanamicComponent/>
     <hr>
-    <router-link to="/firstroute">Go To Router</router-link>
+    <router-link to="/firstroute">Go To Router</router-link><br>
+    <router-link to="/fetchapi">Fetch API</router-link><br>
+    <router-link to="/datatable">Datatable</router-link>
     <hr>
     <router-view></router-view>
 </div>
