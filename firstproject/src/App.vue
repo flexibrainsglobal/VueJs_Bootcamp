@@ -5,9 +5,10 @@
     <ListRendering/>
     <DyanamicComponent/>
     <hr>
-    <router-link to="/firstroute">Go To Router</router-link><br>
-    <router-link to="/fetchapi">Fetch API</router-link><br>
-    <router-link to="/datatable">Datatable</router-link>
+    <router-link to="/firstroute">Go To Router</router-link><br/>
+    <router-link to="/fetchapi">Fetch API</router-link><br/>
+    <router-link to="/datatable">Datatable</router-link><br/>
+    <router-link to="/chart">Chart JS</router-link>
     <hr>
     <router-view></router-view>
 </div>
@@ -18,6 +19,7 @@ import Template from './components/template.vue'
 import ConditionalRendering from "./components/conditionalrendering.vue"
 import ListRendering from "./components/ListRendering.vue"
 import DyanamicComponent from "./components/dynamiccomponent.vue"
+
 
 export default {
   name: 'App',

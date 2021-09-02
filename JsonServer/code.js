@@ -3,7 +3,7 @@ const fs = require('fs');
 
 function generateData(){
     let dataarray = []
-
+    let chartData = []
     for(let id=1; id<=100;id++){
         let firstName = faker.name.firstName();
         let middlename = faker.name.middleName();
@@ -24,8 +24,20 @@ function generateData(){
 
         });
     }
+    for(let id=1; id<=50;id++){
+        let department = faker.commerce.department();
+        let price = faker.commerce.price();
+        
+
+        chartData.push({
+            "department":department,
+            "price":price,
+           
+        });
+    }
     return {
-        "data":dataarray
+        "data":dataarray,
+        "chart":chartData
     }
 }
 

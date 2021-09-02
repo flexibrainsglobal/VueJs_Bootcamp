@@ -9,6 +9,8 @@ import "datatables.net-select-bs5";
 import "jquery";
 import "jszip";
 import "pdfmake";
+import "chart.js";
+import "vue-chartjs";
 
 createApp(App)
   .use(router)

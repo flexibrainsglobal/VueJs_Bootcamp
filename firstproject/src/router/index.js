@@ -2,6 +2,7 @@ import {createRouter , createWebHistory } from "vue-router";
 import RouterComponent from "../components/RouterComponent.vue"
 import FetchApi from "../components/apiFetch.vue"
 import Datatable from "../components/datatable.vue"
+import Chart from "../components/Chart.vue"
 const routes = [
     {
         path:"/firstroute",
@@ -17,6 +18,11 @@ const routes = [
         path:"/datatable",
         name:"Datatable",
         component:Datatable
+    },
+    {
+        path:"/chart",
+        name:"Chart",
+        component:Chart
     }
 ]
 
