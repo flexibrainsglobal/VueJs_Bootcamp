@@ -12,6 +12,7 @@
     <router-link to="/vuex">Vuex</router-link><br>
     <router-link to="/watchers">Watchers</router-link><br>
     <router-link to="/parent">Parent</router-link>
+    <router-link to="/forms">Forms</router-link>
     <hr>
     <router-view></router-view>
 </div>

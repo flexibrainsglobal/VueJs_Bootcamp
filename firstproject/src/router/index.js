@@ -5,6 +5,7 @@ import Datatable from "../components/datatable.vue"
 import Chart from "../components/Chart.vue"
 import Vuex from "../components/vuex.vue"
 import Watchers from "../components/watchers.vue"
+import Forms from "../components/forms.vue"
 const routes = [
     {
         path:"/firstroute",
@@ -35,6 +36,11 @@ const routes = [
         path:"/watchers",
         name:"Watchers",
         component:Watchers
+    },
+    {
+        path:"/forms",
+        name:"Forms",
+        component:Forms
     }
 ]
 

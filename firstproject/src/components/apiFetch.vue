@@ -49,7 +49,7 @@ export default {
     fetchAPI() {
       var _this = this;
       axios.get("http://localhost:3000/data").then(function (response) {
-        console.log(response.data);
+        console.log(response.status);
         _this.DynamicData = response.data;
         $('#mytable').DataTable( {
     
