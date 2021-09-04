@@ -9,7 +9,9 @@
     <router-link to="/fetchapi">Fetch API</router-link><br/>
     <router-link to="/datatable">Datatable</router-link><br/>
     <router-link to="/chart">Chart JS</router-link><br/>
-    <router-link to="/vuex">Vuex</router-link>
+    <router-link to="/vuex">Vuex</router-link><br>
+    <router-link to="/watchers">Watchers</router-link><br>
+    <router-link to="/parent">Parent</router-link>
     <hr>
     <router-view></router-view>
 </div>
