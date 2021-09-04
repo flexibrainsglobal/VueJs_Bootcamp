@@ -3,6 +3,7 @@ import RouterComponent from "../components/RouterComponent.vue"
 import FetchApi from "../components/apiFetch.vue"
 import Datatable from "../components/datatable.vue"
 import Chart from "../components/Chart.vue"
+import Vuex from "../components/vuex.vue"
 const routes = [
     {
         path:"/firstroute",
@@ -23,6 +24,11 @@ const routes = [
         path:"/chart",
         name:"Chart",
         component:Chart
+    },
+    {
+        path:"/vuex",
+        name:"Vuex",
+        component:Vuex
     }
 ]
 

@@ -8,7 +8,8 @@
     <router-link to="/firstroute">Go To Router</router-link><br/>
     <router-link to="/fetchapi">Fetch API</router-link><br/>
     <router-link to="/datatable">Datatable</router-link><br/>
-    <router-link to="/chart">Chart JS</router-link>
+    <router-link to="/chart">Chart JS</router-link><br/>
+    <router-link to="/vuex">Vuex</router-link>
     <hr>
     <router-view></router-view>
 </div>
@@ -28,7 +29,10 @@ export default {
     ConditionalRendering,
     ListRendering,
     DyanamicComponent
-  }
+  },
+  created() {
+    this.$store.dispatch('getCharData')
+  },
 }
 </script>
 
